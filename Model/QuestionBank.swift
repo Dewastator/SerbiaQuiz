@@ -1,10 +1,3 @@
-//
-//  QuestionBank.swift
-//  SerbiaQuiz
-//
-//  Created by Milos Petrusic on 10/11/2020.
-//
-
 import UIKit
 
 class QuestionBank {
@@ -40,7 +33,7 @@ class QuestionBank {
         list.append(Question(questionText: "Позната плажа Штранд налази се у?", choiceA: "Ниш", choiceB: "Крагујевац", choiceC: "Београд", choiceD: "Нови Сад", image: UIImage(named: "Strand"), answer: 4))
         list.append(Question(questionText: "На којој тврђави се налази такозвани ’пијани сат’?", choiceA: "Калемегдан", choiceB: "Петроварадин", choiceC: "Нишка тврђава", choiceD: "Голубачка тврђава", image: nil, answer: 2))
         list.append(Question(questionText: "Која бања у Србији има најтоплију воду?", choiceA: "Сијаринска", choiceB: "Пролом", choiceC: "Врњачка", choiceD: "Врањска", image: nil, answer: 4))
-        list.append(Question(questionText: "Који град у Србији је познат по производњи ћилима?", choiceA: "Нови Пазар", choiceB: "Тутин", choiceC: "Лесковац", choiceD: "Пирот", image: nil, answer: 4))
+        list.append(Question(questionText: "Који град у Србији је познат по производњи ћилима?", choiceA: "Нови Пазар", choiceB: "Тутин", choiceC: "Лесковац", choiceD: "Пирот", image: UIImage(named: "Cilim"), answer: 4))
         list.append(Question(questionText: "Панчићева оморика је заштитни знак ког националног парка?", choiceA: "Копаоник", choiceB: "Фрушка Гора", choiceC: "Тара", choiceD: "Ђердап", image: nil, answer: 3))
         list.append(Question(questionText: "Омиљено станиште мрког медведа у Србији је?", choiceA: "Тара", choiceB: "Копаоник", choiceC: "Голија", choiceD: "Шар планина", image: nil, answer: 1))
         list.append(Question(questionText: "Чије срце је по личној жељи сахрањено на врху Кајмакчалана?", choiceA: "Арчибалд Рајс", choiceB: "Радомир Путник", choiceC: "Краљ Петар", choiceD: "Војвода Живојин Мишић", image: nil, answer: 1))
@@ -119,7 +112,7 @@ class QuestionBank {
         list.append(Question(questionText: "Споменик Слобода налази се на:", choiceA: "Авали", choiceB: "Космају", choiceC: "Фрушкој Гори", choiceD: "Букуљи", image: UIImage(named: "Sloboda"), answer: 3))
         list.append(Question(questionText: "Балкански ратови одиграли су се:", choiceA: "1876-1878", choiceB: "1902", choiceC: "1912-1913", choiceD: "1804-1813", image: nil, answer: 3))
         list.append(Question(questionText: "Ко је написао књижевно дело \"Сеобе\"?", choiceA: "Лаза Лазаревић", choiceB: "Десанка Максимовић", choiceC: "Јоаким Вујић", choiceD: "Милош Црњански", image: nil, answer: 4))
-        list.append(Question(questionText: "Које године је рођен Никола Тесла", choiceA: "1900", choiceB: "1822", choiceC: "1846", choiceD: "1856", image: UIImage(named: "Tesla"), answer: 4))
+        list.append(Question(questionText: "Које године је рођен Никола Тесла?", choiceA: "1900", choiceB: "1822", choiceC: "1846", choiceD: "1856", image: UIImage(named: "Tesla"), answer: 4))
         list.append(Question(questionText: "Душанов законик је донет 1349. године. У ком граду?", choiceA: "Призрену", choiceB: "Рашкој", choiceC: "Скопљу", choiceD: "Костантинопољу", image: UIImage(named: "Zakonik"), answer: 3))
         list.append(Question(questionText: "Један српски град на Косову и Метохији је у 14. веку имао преко 50.000 становника. Како се звао?", choiceA: "Трепча", choiceB: "Ново Брдо", choiceC: "Призрен", choiceD: "Приштина", image: nil, answer: 2))
         list.append(Question(questionText: "Кнежевина Србија постаје међународно призната независна држава које године?", choiceA: "1867", choiceB: "1912", choiceC: "1860", choiceD: "1878", image: nil, answer: 4))
@@ -213,8 +206,8 @@ class QuestionBank {
         list.append(Question(questionText: "Најбољи стрелац фудбалске репрезентације Србије је:", choiceA: "Стјепан Бобек", choiceB: "Душан Бајевић", choiceC: "Саво Милошевић", choiceD: "Предраг Мијатовић", image: nil, answer: 1))
         list.append(Question(questionText: "Колико пута је ватерполо репрезентација Србије била светски првак?", choiceA: "7", choiceB: "5", choiceC: "4", choiceD: "3", image: nil, answer: 2))
         list.append(Question(questionText: "Рекордер по броју погодака за репрезентацију Србије је:", choiceA: "Дејан Савић", choiceB: "Филип Филиповић", choiceC: "Вања Удовичић", choiceD: "Александар Шапић", image: nil, answer: 4))
-        
-        
+
+
         list.append(Question(questionText: "Ко је био организатор ликвидације Карађорђа?", choiceA: "Новица Новаковић", choiceB: "Наум Крнар", choiceC: "Мехмед-Ага Фочић", choiceD: "Вујица Вулићевић", image: nil, answer: 4))
         list.append(Question(questionText: "Манастир Покајница је подигнут у знак покајања Вујице Вулићевића због учествовању  у ликвидацији:", choiceA: "Александра Карађорђевића", choiceB: "Милоша Обреновића", choiceC: "Карађорђа Петровића", choiceD: "Васе Чарапића", image: nil, answer: 3))
         list.append(Question(questionText: "Знаменити војсковођа Васа Чарапић, добио је надимак:", choiceA: "Змај од Космаја", choiceB: "Змај од Авале", choiceC: "Шумадијски змај", choiceD: "Змај са Рудника", image: nil, answer: 2))
@@ -231,12 +224,10 @@ class QuestionBank {
         list.append(Question(questionText: "Једино археолошко налазиште са територије Србије на Унесковој Листи је?", choiceA: "Гамзиград", choiceB: "Виминацијум", choiceC: "Лепенски вир", choiceD: "Сирмијум", image: nil, answer: 1))
         list.append(Question(questionText: "Где се налази најстарија и најзначајнија српска сачувана библиотека?", choiceA: "Манастир Студеница", choiceB: "Манастир Ресава", choiceC: "Манастир Хиландар", choiceD: "Манастир Жича", image: nil, answer: 3))
         list.append(Question(questionText: "Гамзиград је други назив за које археолошко налазиште?", choiceA: "Медијана", choiceB: "Феликс Ромулијана", choiceC: "Улпијана", choiceD: "Сирмијум", image: nil, answer: 2))
-        list.append(Question(questionText: "На археолошком налазишту Медијана налазе се остаци виле ког римског владара?", choiceA: "Диоклецијана", choiceB: "Константина", choiceC: "Максенција", choiceD: "Јустинијана", image: nil, answer: 2))
         list.append(Question(questionText: "Како се звала жена краља Милутина Немањића?", choiceA: "Милица", choiceB: "Симонида", choiceC: "Јефимија", choiceD: "Весна", image: nil, answer: 2))
         list.append(Question(questionText: "Један астероид је назван по српској средњовековној краљици. Којој?", choiceA: "Јелена Анжујска", choiceB: "Марија Палеолог", choiceC: "Симонида Немањић", choiceD: "Каталина Арпад", image: nil, answer: 3))
         list.append(Question(questionText: "Колико година је при удаји имала српска краљица, Симонида?", choiceA: "5", choiceB: "15", choiceC: "12", choiceD: "10", image: nil, answer: 1))
         list.append(Question(questionText: "У ком сродству су краљ Драгутин Немањић и краљ Милутин Немањић?", choiceA: "Отац и син", choiceB: "Стриц и синовац", choiceC: "Деда и унук", choiceD: "Браћа", image: nil, answer: 4))
-        list.append(Question(questionText: "На археолошком налазишту Медијана налазе се остаци виле ког римског владара?", choiceA: "Диоклецијана", choiceB: "Константина", choiceC: "Максенција", choiceD: "Јустинијана", image: nil, answer: 2))
         list.append(Question(questionText: "За време ког рата је настала песма \"Тамо далеко\"?", choiceA: "Другог светског рата", choiceB: "Балканских ратова", choiceC: "Првог светског рата", choiceD: "Првог српског устанка", image: nil, answer: 3))
         list.append(Question(questionText: "Који догађај је описан у филму \"Где цвета лимун жут\"?", choiceA: "Сахрана Тита", choiceB: "Повлачење војске на Крф", choiceC: "Маричка битка", choiceD: "Битка на Неретви", image: nil, answer: 2))
         list.append(Question(questionText: "Ко је превео песме Јована Јовановића Змаја објављене у америчком часопису?", choiceA: "Никола Тесла", choiceB: "Јован Дучић", choiceC: "Лаза Костић", choiceD: "Вук Стефановић Караџић", image: nil, answer: 1))
@@ -272,7 +263,7 @@ class QuestionBank {
         list.append(Question(questionText: "У којој бањи се налази вештачки гејзир?", choiceA: "Врањска", choiceB: "Атомска", choiceC: "Сијаринска", choiceD: "Јошаничка", image: nil, answer: 3))
         list.append(Question(questionText: "Колико Тимока протиче кроз Србију?", choiceA: "2", choiceB: "4", choiceC: "1", choiceD: "5", image: nil, answer: 4))
         list.append(Question(questionText: "Која пећина је позната по бигреним кадама?", choiceA: "Стопића", choiceB: "Боговинска", choiceC: "Дубочка", choiceD: "Злотска", image: UIImage(named: "Stopica"), answer: 1))
-        list.append(Question(questionText: "Палеовулканска купа Островица налази се на планини:", choiceA: "Ртањ", choiceB: "Рудник", choiceC: "Гоч", choiceD: "Маљен", image: nil, answer: 2))
+        list.append(Question(questionText: "Палеовулканска купа Островица налази се на планини:", choiceA: "Ртањ", choiceB: "Рудник", choiceC: "Гоч", choiceD: "Маљен", image: UIImage(named: "Ostrovica"), answer: 2))
         list.append(Question(questionText: "Прва хидроцентрала у Србији изграђена по Теслином нацрту налази се на реци:", choiceA: "Сврљишки Тимок", choiceB: "Ресава", choiceC: "Ђетиња", choiceD: "Тамнава", image: nil, answer: 3))
         list.append(Question(questionText: "Преграђивањем које реке је настало вештачко језеро Газиводе?", choiceA: "Дрине", choiceB: "Лима", choiceC: "Студенице", choiceD: "Ибра", image: nil, answer: 4))
         list.append(Question(questionText: "Прва задужбина великог жупана Стефана Немање је:", choiceA: "Црква Пресвете Богородице", choiceB: "Црква Светог Николе", choiceC: "Манастир Студеница", choiceD: "Манастир Ђурђеви ступови", image: nil, answer: 1))
@@ -308,8 +299,56 @@ class QuestionBank {
         list.append(Question(questionText: "Манастир Сретење налази се:", choiceA: "на Косову и Метохији", choiceB: "у Обчарско-кабларској клисури", choiceC: "на Фрушкој гори", choiceD: "на Пештеру", image: UIImage(named: "Sretenje"), answer: 2))
         list.append(Question(questionText: "Под којим псеудонимом се краљ Петар I Карађорђевић борио у Босанско-херцеговачком устанку?", choiceA: "Петар Добрњац", choiceB: "Никола Грбовић", choiceC: "Никола Степић", choiceD: "Петар Мркоњић", image: nil, answer: 4))
         list.append(Question(questionText: "Руковети Стевана Стојановића Мокрањца су циклус од колико музичких рапсодија? (без Приморских напјева)", choiceA: "15", choiceB: "16", choiceC: "12", choiceD: "9", image: nil, answer: 1))
-        list.append(Question(questionText: "Право име Миње Суботе је:", choiceA: "Миљан", choiceB: "Милан", choiceC: "Анте", choiceD: "Милован", image: nil, answer: 2))
-        
+        list.append(Question(questionText: "Право име Миње Суботе је:", choiceA: "Миљан", choiceB: "Милан", choiceC: "Анте", choiceD: "Милован", image: UIImage(named: "Minja"), answer: 2))
+        list.append(Question(questionText: "Који сликар је насликао постер за филм \"Битка на Неретви\"?", choiceA: "Надежда Петровић", choiceB: "Густав Климт", choiceC: "Пабло Пикасо", choiceD: "Урош Предић", image: UIImage(named: "Pikaso"), answer: 3))
+        list.append(Question(questionText: "Који глумац је дебитовао улогом Сирогојна у филму \"Бошко Буха\"?", choiceA: "Драган Бјелогрлић", choiceB: "Милорад Мандић", choiceC: "Марко Николић", choiceD: "Срђан Тодоровић", image: nil, answer: 1))
+        list.append(Question(questionText: "Како се звао пас у филму \"Орлови рано лете\"?", choiceA: "Бади", choiceB: "Жуја", choiceC: "Преле", choiceD: "Жућа", image: nil, answer: 2))
+        list.append(Question(questionText: "Из ког филма је реплика \"Само тетки да однесем лек\"?", choiceA: "Маратонци трче почасни круг", choiceB: "Кад порастем бићу кенгур", choiceC: "Лајање на звезде", choiceD: "Балкан Експрес", image: nil, answer: 4))
+        list.append(Question(questionText: "Назив првог домаћег хорор филма је:", choiceA: "Лавиринт", choiceB: "Свето место", choiceC: "Лептирица", choiceD: "Виј", image: nil, answer: 3))
+        list.append(Question(questionText: "Из које серије је песма \"А сад адио\"?", choiceA: "Бољи живот", choiceB: "Срећни људи", choiceC: "Броз и ја", choiceD: "Врућ ветар", image: nil, answer: 4))
+        list.append(Question(questionText: "Из ког града је двоструки рукометни првак Европе \"Металопластика\"?", choiceA: "Шабац", choiceB: "Лозница", choiceC: "Краљево", choiceD: "Вршац", image: nil, answer: 1))
+        list.append(Question(questionText: "У којој атлетској дисциплини је Вера Николић држала светски рекорд?", choiceA: "100m", choiceB: "400m препоне", choiceC: "5000m", choiceD: "800m", image: nil, answer: 4))
+        list.append(Question(questionText: "На којој локацији је првобитно требало да буде постављен споменик \"Победник\"?", choiceA: "Калемегдан", choiceB: "Теразије", choiceC: "Ташмајдан", choiceD: "Савски трг", image: nil, answer: 2))
+        list.append(Question(questionText: "Најтрофејнији европски кошаркашки тренер свих времена је:", choiceA: "Душан Дуда Ивковић", choiceB: "Жељко Обрадовић", choiceC: "Светислав Пешић", choiceD: "Душко Вујошевић", image: nil, answer: 2))
+        list.append(Question(questionText: "Српски фудбалер који је био капитен Манчестер Јунајтеда је:", choiceA: "Дејан Станковић", choiceB: "Бранислав Ивановић", choiceC: "Немања Видић", choiceD: "Зоран Тошић", image: nil, answer: 3))
+        list.append(Question(questionText: "Које године је КК Партизан био шампион Европе?", choiceA: "1992", choiceB: "2002", choiceC: "1998", choiceD: "1996", image: nil, answer: 1))
+        list.append(Question(questionText: "Кога је КК Партизан победио у финалу европског кошаркашког купа 1992. године?", choiceA: "Олимпијакос", choiceB: "Реал Мадрид", choiceC: "Естудијантес", choiceD: "Хувентуд", image: nil, answer: 4))
+        list.append(Question(questionText: "Где је одиграно финале Купа европских шампиона у кошарци, у ком је Партизан однео победу и постао европски шампион?", choiceA: "Атина", choiceB: "Милано", choiceC: "Истанбул", choiceD: "Барселона", image: nil, answer: 3))
+        list.append(Question(questionText: "Где су се одигравале Олимпијске игре у којима је спрски пливач, Милорад Чавић, неправедно остао без победе против Мајкла Фелпса?", choiceA: "Пекинг", choiceB: "Лондон", choiceC: "Сиднеј", choiceD: "Токио", image: nil, answer: 1))
+        list.append(Question(questionText: "Име Србина по коме је настао лик Џејмс Бонда је Душко, а презиме?", choiceA: "Петровић", choiceB: "Попов", choiceC: "Петров", choiceD: "Поповић", image: nil, answer: 2))
+        list.append(Question(questionText: "На ком чувеном водопаду се налази споменик Николи Тесли?", choiceA: "Нијагарини водопади", choiceB: "Анћеоски водопади", choiceC: "Викторијини водопади", choiceD: "Јосемити водопад", image: nil, answer: 1))
+        list.append(Question(questionText: "У којој пливачкој дисциплини је Нађа Хигл постала светски шампион?", choiceA: "100m прсно", choiceB: "4x100m мешовито", choiceC: "200m прсно", choiceD: "200m мешовито", image: nil, answer: 3))
+        list.append(Question(questionText: "Мошти цара Уроша налази се у манастиру:", choiceA: "Старо Хопово", choiceB: "Крушедол", choiceC: "Мала Ремета", choiceD: "Нови Јазак", image: nil, answer: 4))
+        list.append(Question(questionText: "Змај Огњени Вук био је ванбрачни син:", choiceA: "Ђурађа Бранковића", choiceB: "Гргура Бранковића", choiceC: "Стефана Бранковића", choiceD: "Лазара Бранковића", image: nil, answer: 2))
+        list.append(Question(questionText: "Дужина тока Дунава кроз Србију је:", choiceA: "612km", choiceB: "348km", choiceC: "520km", choiceD: "588km", image: nil, answer: 4))
+        list.append(Question(questionText: "Највиши врх планине Таре је:", choiceA: "Пивнице", choiceB: "Козји рид", choiceC: "Мрка коса", choiceD: "Бањска стена", image: nil, answer: 2))
+        list.append(Question(questionText: "Кроз Лесковац протиче река:", choiceA: "Ветерница", choiceB: "Ибар", choiceC: "Тимок", choiceD: "Пуста река", image: nil, answer: 1))
+        list.append(Question(questionText: "Који је главни град Пчињског округа?", choiceA: "Пирот", choiceB: "Лесковац", choiceC: "Врање", choiceD: "Куршумлија", image: nil, answer: 3))
+        list.append(Question(questionText: "Који од понуђених градова има највише становника?", choiceA: "Крушевац", choiceB: "Зрењанин", choiceC: "Чачак", choiceD: "Краљево", image: nil, answer: 2))
+        list.append(Question(questionText: "У ком месту у Србији се одржава \"Туцанијада\"?", choiceA: "Мокрин", choiceB: "Турија", choiceC: "Сента", choiceD: "Кањижа", image: nil, answer: 1))
+        list.append(Question(questionText: "Који округ у Србији је највећи по површини?", choiceA: "Јужнобачки", choiceB: "Рашки", choiceC: "Браничевски", choiceD: "Златиборски", image: nil, answer: 4))
+        list.append(Question(questionText: "Право име Новосадске катедрале је:", choiceA: "Црква Светог Рока", choiceB: "Црква Светог Ивана Непомука", choiceC: "Црква имена Маријиног", choiceD: "Црква узвишења светог крижа", image: nil, answer: 3))
+        list.append(Question(questionText: "Једна река у Србији је једина у Европи код које се јавља аномалија где део реке тече узбрдо. Њено име је:", choiceA: "Бањска река", choiceB: "Топлица", choiceC: "Бистрица", choiceD: "Пуста река", image: nil, answer: 2))
+        list.append(Question(questionText: "Који наш научник је дао кључни допринос разумевању дуготрајних климатских циклуса на планети Земљи?", choiceA: "Јосиф Панчић", choiceB: "Јован Цвијић", choiceC: "Милутин Миланковић", choiceD: "Бранко Жежељ", image: nil, answer: 3))
+        list.append(Question(questionText: "Бранко Жежељ је био чувени српски:", choiceA: "Географ", choiceB: "Биолог", choiceC: "Астрофизичар", choiceD: "Грађевински инжењер", image: nil, answer: 4))
+        list.append(Question(questionText: "Опленац се налази надомак:", choiceA: "Горњег Милановца", choiceB: "Такова", choiceC: "Аранђеловца", choiceD: "Тополе", image: UIImage(named: "Oplenac"), answer: 4))
+        list.append(Question(questionText: "\"Мистериозне\" камене кугле се могу пронаћи на којој планини?", choiceA: "Повлен", choiceB: "Маљен", choiceC: "Гоч", choiceD: "Варденик", image: UIImage(named: "Povlen"), answer: 1))
+        list.append(Question(questionText: "Прва скијашка гондола у Србији је почела да ради на планини:", choiceA: "Златибор", choiceB: "Стара Планина", choiceC: "Копаоник", choiceD: "Шар планини", image: nil, answer: 2))
+        list.append(Question(questionText: "Колико језера је настало потапањем долине реке Увац?", choiceA: "1", choiceB: "3", choiceC: "4", choiceD: "5", image: nil, answer: 2))
+        list.append(Question(questionText: "Који од понуђених градова је највећи по површини?", choiceA: "Зрењанин", choiceB: "Суботица", choiceC: "Краљево", choiceD: "Крагујевац", image: nil, answer: 3))
+        list.append(Question(questionText: "На првом сателитском преносу између С. Америке и Европе нашла се и једна слика из Србије. У питању је:", choiceA: "Слика \"Косовка девојка\"", choiceB: "Мирослављево јевањђеље", choiceC: "Фотографија Високих Дечана", choiceD: "Икона \"Бели анђео\"", image: nil, answer: 4))
+        list.append(Question(questionText: "Избаци уљеза (гранични прелази):", choiceA: "Келебија", choiceB: "Хоргош", choiceC: "Бачки Брег", choiceD: "Ватин", image: nil, answer: 4))
+        list.append(Question(questionText: "Која наша планина је проглашена за \"резерват биосфере\" због изузетног еколошког значаја?", choiceA: "Стара Планина", choiceB: "Копаоник", choiceC: "Голија", choiceD: "Златар", image: nil, answer: 3))
+        list.append(Question(questionText: "Турци су ово место називали Фићир-бајир, што значи \"брег за размишљање\", а реч је о:", choiceA: "Калемегдану", choiceB: "Петроварадинској тврђави", choiceC: "Фрушкој гори", choiceD: "Авали", image: nil, answer: 1))
+        list.append(Question(questionText: "Која од ових планина није национални парк?", choiceA: "Фрушка гора", choiceB: "Копаоник", choiceC: "Тара", choiceD: "Стара планина", image: nil, answer: 4))
+        list.append(Question(questionText: "У ком месту се налази воденица са слике?", choiceA: "Таор", choiceB: "Катићи", choiceC: "Тршић", choiceD: "Зарожје", image: UIImage(named: "Taor"), answer: 1))
+        list.append(Question(questionText: "Шта Победник на Калемегдану држи у десној руци, ако знамо да је у левој руци птица?", choiceA: "Штит", choiceB: "Бакљу", choiceC: "Мач", choiceD: "Вагу", image: nil, answer: 3))
+        list.append(Question(questionText: "Ког датума се слави свети Сава?", choiceA: "22.јануар", choiceB: "27.јануар", choiceC: "29.јануар", choiceD: "2.фебруар", image: nil, answer: 2))
+        list.append(Question(questionText: "Коју птицу Победник на Калемегдану држи у левој руци?", choiceA: "Сокола", choiceB: "Орла", choiceC: "Белоглавог супа", choiceD: "Сову", image: nil, answer: 1))
+        list.append(Question(questionText: "Специфични водопад са слике зове се:", choiceA: "Сопотница", choiceB: "Бигар", choiceC: "Прскало", choiceD: "Црквине", image: UIImage(named: "Prskalo"), answer: 3))
+        list.append(Question(questionText: "Сајам сувомеснатих производа, популарна Пршутијада, се одржава сваког јануара у селу:", choiceA: "Костојевићи", choiceB: "Мачкат", choiceC: "Сирогојно", choiceD: "Варда", image: nil, answer: 2))
+        list.append(Question(questionText: "Награду \"Доситејево перо\" додељује жири који чине:", choiceA: "Књижевници", choiceB: "Професори", choiceC: "Студенту", choiceD: "Деца", image: nil, answer: 4))
+        list.append(Question(questionText: "Када се каже Српски Манчестер, мисли се на град:", choiceA: "Уб", choiceB: "Ужице", choiceC: "Лесковац", choiceD: "Прибој", image: nil, answer: 3))
         
         
         list.shuffle()
